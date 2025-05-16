@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 /* Estilos para ocupar siempre todo el alto de la pantalla */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 html, body{
     height: 100%;
     min-height: 100vh;
@@ -76,9 +78,9 @@ section{
 footer{
     background-color: rgb(33, 75, 201);
     color: white;
+    height: 50px;
     text-align: center;
     padding: 10px;
-    margin-top: 10px;
 }
 @keyframes entrada{
     from{opacity: 0; transform: traslateY(20px);}

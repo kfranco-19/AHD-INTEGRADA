@@ -12,16 +12,13 @@
 	--branco-placeholder: #f0ffff94;
 }
 
-body {
+.main-contenedor{
+	border: 0;
+	padding: 0;
 	margin: 0;
-	font-family: "Roboto", sans-serif;
-	background-color: var(--ciano);
+	width: 100%;
+	height: 100%;
 }
-
-body * {
-	box-sizing: border-box;
-}
-
 .mainLogin {
 	width: 100vw;
 	height: 100vh;
@@ -168,5 +165,10 @@ body * {
 	}
 	.cardLogin {
 		width: 90%;
+	}
+	footer{
+		position: absolute;
+  		bottom: 0;
+  		width: 100%;
 	}
 }

@@ -25,34 +25,36 @@
             </div>
         </nav> 
     </header>
-        <div class="mainLogin">
-			<div class="leftLogin">
-				<h1>
-					De todo en carpinteria
-				</h1>
-				<img
-					src="https://cdn.pixabay.com/photo/2016/11/21/12/59/couch-1845270_1280.jpg"
-					class="leftLoginImage"
-					alt="Uma pessoa no pc"
-				/>
-			</div>
-			<div class="rightLogin">
-				<form class="cardLogin" id="loginForm">
-					<img src="https://cdn.pixabay.com/photo/2017/08/18/00/28/png-2653383_1280.png" alt="" />
-					<div class="textfield" id="divUser">
-						<label for="user">Username</label>
-						<input type="text" name="user" placeholder="Username"/>
-					</div>
-					<div class="textfield" id="divPass">
-						<label for="password">Password</label>
-						<input type="password" name="password" placeholder="Password"/>
-					</div>
-					<button class="btnLogin" onclick="logar()">
-						Login
-					</button>
-				</form>
-			</div>
-		</div>
+        <main class="main-contenedor">
+            <div class="mainLogin">
+                <div class="leftLogin">
+                    <h1>
+                        De todo en carpinteria
+                    </h1>
+                    <img
+                        src="https://cdn.pixabay.com/photo/2016/11/21/12/59/couch-1845270_1280.jpg"
+                        class="leftLoginImage"
+                        alt=""
+                    />
+                </div>
+                <div class="rightLogin">
+                    <form class="cardLogin" id="loginForm">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/18/00/28/png-2653383_1280.png" alt="" />
+                        <div class="textfield" id="divUser">
+                            <label for="usuario">Username</label>
+                            <input type="text" id="usuario" name="usuario" placeholder="Usuario" required/>
+                        </div>
+                        <div class="textfield" id="divPass">
+                            <label for="pass">Password</label>
+                            <input type="password" id="pass" name="pass" placeholder="Password"   required/>
+                        </div>
+                        <button class="btnLogin"  type="submit">
+                            Login
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </main>
     <footer>
         <p>2025 - Todos los derechos reservados</p>
     </footer>
