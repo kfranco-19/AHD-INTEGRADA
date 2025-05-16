@@ -1,7 +1,8 @@
 .servicios{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 35px;
+    margin-top: 40px;
     justify-content: center;
 }
 .servicio{
