@@ -130,6 +130,13 @@
 .btnLogin:hover {
 	background: var(--ciano-claro);
 }
+#mensajeLogin{
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+}
+
 
 /* Responsividade */
 @media only screen and (max-width: 950px) {
@@ -172,3 +179,5 @@
   		width: 100%;
 	}
 }
+
+

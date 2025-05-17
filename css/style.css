@@ -6,9 +6,21 @@
 /* Estilos para ocupar siempre todo el alto de la pantalla */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+/* Variáveis */
+:root {
+	/* Cores */
+	--ciano: #32dfdf;
+	--ciano-claro: #6beded;
+	--azul-cinza-escuro: #1b2430;
+	--azul-cinza: #30475e;
+	--cinza-escuro: #282828;
+	--cinza-claro: #f0ffffde;
+	--branco-placeholder: #f0ffff94;
+}
 html, body{
     height: 100%;
     min-height: 100vh;
+    background-color: var(--azul-cinza-escuro)  ;
 }
 body{
     display: flex;
@@ -64,13 +76,16 @@ nav ul li a:hover{
 
 /* Estilos para el main */
 main{
-    max-width: 1100px;
     margin: 80px auto 0px;
     padding: 40px;
+    max-width: 900px;
     animation: entrada 1s;
+    background-color: var(--azul-cinza-escuro);
+    width: 100%;
 }
 section{
-    background-color: antiquewhite;
+    background-color: var(--azul-cinza);
+    color: var(--cinza-claro);
     padding: 20px;
     border-radius: 10px;
     text-align: center;

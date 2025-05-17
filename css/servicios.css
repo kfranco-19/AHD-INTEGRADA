@@ -1,3 +1,13 @@
+:root {
+	/* Cores */
+	--ciano: #32dfdf;
+	--ciano-claro: #6beded;
+	--azul-cinza-escuro: #1b2430;
+	--azul-cinza: #30475e;
+	--cinza-escuro: #282828;
+	--cinza-claro: #f0ffffde;
+	--branco-placeholder: #f0ffff94;
+}
 .servicios{
     display: flex;
     flex-wrap: wrap;
@@ -7,6 +17,7 @@
 }
 .servicio{
     background-color: white;
+    color: black;
     padding: 20px;
     border: 1px solid rgb(224, 224, 224);
     border-radius: 8px;
