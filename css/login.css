@@ -45,7 +45,7 @@
 
 .leftLoginImage {
 	width: 25vw;
-    margin-top: 30px;
+    margin-top: 20px;
     border-radius: 20px;
 }
 
@@ -142,6 +142,9 @@
 
 /* Responsividade */
 @media only screen and (max-width: 950px) {
+	.mainLogin {
+		flex-direction: column;
+	}
 	.cardLogin {
 		width: 80%;
 	}
@@ -158,9 +161,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-	.mainLogin {
-		flex-direction: column;
-	}
 	.leftLogin {
 		display: none;
 	}
