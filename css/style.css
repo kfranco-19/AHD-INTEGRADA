@@ -122,4 +122,8 @@ footer{
     nav .logo{
         font-size: 6vw;
     }
+    nav ul li {
+        font-size: 2.5vw;
+        
+    }
 }

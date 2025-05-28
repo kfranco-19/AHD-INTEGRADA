@@ -1,0 +1,42 @@
+:root {
+	/* Cores */
+	--ciano: #32dfdf;
+	--ciano-claro: #6beded;
+	--azul-cinza-escuro: #1b2430;
+	--azul-cinza: #30475e;
+	--cinza-escuro: #282828;
+	--cinza-claro: #f0ffffde;
+	--branco-placeholder: #f0ffff94;
+}
+.contenedor-productos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.producto{
+    border-radius: 12px;
+    padding: 15px;
+    width: 250px;
+    height: 300px;
+}
+.producto img{
+    max-width: 100%;
+    height: 70%;
+}
+.producto button{
+    width: 150px;
+	padding: 2px 0px;
+	margin: 5px;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	font-weight: 2;
+	letter-spacing: 1px;
+	color: var(--azul-cinza);
+	background: var(--ciano);
+	cursor: pointer;
+	box-shadow: 0px 10px 40px -12px var(--ciano);
+	transition: 0.25s ease-in-out;
+}
